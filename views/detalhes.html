@@ -1,0 +1,63 @@
+
+<div class="section">
+    <div class="sectionDetalhe">
+    
+        <div class="container">
+
+            <div class="chip">
+            <img src="images/sample-1.jpg" alt="Contact Person">
+            Jane Doe
+            </div>
+            
+            <i class="large material-icons" style="font-size: 3rem !important;
+    color: #444;margin-top:10px;">play_for_work</i>
+            
+        <div class="row">
+            <div class="col s12 m12">
+                 <h3 class="flow-text">{{potsdetalhe.posttitulo}}</h3>
+                <blockquote>
+      {{potsdetalhe.posttexto}}
+    </blockquote>
+            </div>
+          </div>
+            
+            <h3>Comentar</h3>
+                <div class="row">
+                    <form class="col s12">
+                      <div class="row">
+                        <div class="input-field col s6">
+                          <input id="first_name" type="text" class="validate">
+                          <label for="first_name">Nome</label>
+                        </div>
+                        <div class="input-field col s6">
+                          <input id="last_name" type="text" class="validate">
+                          <label for="last_name">Sobre nome</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input id="assunto" type="text" class="validate">
+                          <label for="password">Assunto</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <form class="col s12">
+                          <div class="row">
+                            <div class="input-field col s12">
+                              <textarea id="textarea1" class="materialize-textarea"></textarea>
+                              <label for="textarea1">Textarea</label>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </form>
+              </div>
+            
+            <a class="postA btn-Médio waves-effect waves-light red" href="#/detalhes/{{anterior}}"><i class="Médio material-icons proximoIcon">fast_rewind</i></a>
+            <a class="postP btn-Médio waves-effect waves-light red" href="#/detalhes/{{proximo}}"><i class="Médio material-icons proximoIcon">fast_forward</i></a>
+            
+        </div>
+    </div>
+    
+    
+</div>

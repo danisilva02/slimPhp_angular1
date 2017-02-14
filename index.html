@@ -1,0 +1,94 @@
+  <!DOCTYPE html>
+  <html ng-app="aplicativo">
+
+    <head>
+
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href='https://fonts.googleapis.com/css?family=Passion+One:400,700' rel='stylesheet' type='text/css'>
+      <!--Import materialize.css-->
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+      <link rel="stylesheet" href="css/hover.css">
+      <link rel="stylesheet" href="css/estilo.css">
+
+      <!-- Compiled and minified JavaScript -->
+ 
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <script src="js/angular/angular.min.js"></script>
+      <script src="js/angular/angular-route.min.js"></script>    
+      <script src="js/angular/app.js"></script>
+      <script src="js/angular/homeCtrl.js"></script>
+      <script src="js/angular/detalhesautorCtrl.js"></script>
+      <script src="js/angular/eventoCtrl.js"></script> 
+      <script src="js/angular/artigosCtrl.js"></script>    
+      <script src="js/angular/appmain.js"></script>
+      <script src="js/angular/detalhesCtrl.js"></script>     
+      <script src="js/config/config.js"></script>    
+      <script src="js/services/aplicativoServices.js"></script> 
+      <script src="js/value/configValue.js"></script> 
+        
+    </head>
+
+    <body>
+     
+    <div ng-include="'include/menu.html'"></div>   
+        
+    
+
+   <div class="content-home sombra">
+
+      <div class="title-home">
+        <h1>Professor</h1>
+        <h2>auro</h2>
+        
+      </div>
+
+   </div>
+
+    <div ng-view></div>    
+    
+
+    <div ng-include="'include/footer.html'"></div>
+
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+        
+      <script>
+        $(".button-collapse").sideNav();
+      </script>
+       
+        <script>
+        
+        var alturaTela = 443;
+        var url =  window.location   
+
+
+window.onscroll = function (oEvent) {
+  // executa um bloco de código ou funções, quando o scroll é feito na janela.
+    //alert(window.location);
+    
+    if(url == "http://localhost/ProfessorMauro/#/artigos"){
+    
+    
+        if(document.body.scrollTop > alturaTela){
+
+            //alert("teste");
+            document.getElementById("menuFiltro").style.opacity = "1";
+            document.getElementById("logoTopo").style.opacity = "0";
+
+
+        }else{
+
+             document.getElementById("menuFiltro").style.opacity = "0";
+             document.getElementById("logoTopo").style.opacity = "1";
+        }
+    }
+}
+        </script>    
+            
+    </body>
+  </html>

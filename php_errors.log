@@ -1,0 +1,99 @@
+[18-Apr-2016 14:22:03 UTC] PHP Fatal error:  Call to a member function con() on a non-object in /home/ubuntu/workspace/api/index.php on line 257
+[18-Apr-2016 14:22:03 UTC] PHP Stack trace:
+[18-Apr-2016 14:22:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/index.php:0
+[18-Apr-2016 14:22:03 UTC] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/index.php:350
+[18-Apr-2016 14:22:03 UTC] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/Slim/Slim.php:1302
+[18-Apr-2016 14:22:03 UTC] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/Slim/Middleware/PrettyExceptions.php:67
+[18-Apr-2016 14:22:03 UTC] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/Slim/Middleware/MethodOverride.php:92
+[18-Apr-2016 14:22:03 UTC] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/Slim/Middleware/Flash.php:85
+[18-Apr-2016 14:22:03 UTC] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/Slim/Slim.php:1357
+[18-Apr-2016 14:22:03 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/Slim/Route.php:468}() /home/ubuntu/workspace/api/Slim/Route.php:468
+[18-Apr-2016 14:22:03 UTC] PHP   9. {closure:/home/ubuntu/workspace/api/index.php:251-273}() /home/ubuntu/workspace/api/Slim/Route.php:468
+[18-Apr-2016 14:23:12 UTC] PHP Fatal error:  Call to a member function con() on a non-object in /home/ubuntu/workspace/api/index.php on line 257
+[18-Apr-2016 14:23:12 UTC] PHP Stack trace:
+[18-Apr-2016 14:23:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/index.php:0
+[18-Apr-2016 14:23:12 UTC] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/index.php:349
+[18-Apr-2016 14:23:12 UTC] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/Slim/Slim.php:1302
+[18-Apr-2016 14:23:12 UTC] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/Slim/Middleware/PrettyExceptions.php:67
+[18-Apr-2016 14:23:12 UTC] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/Slim/Middleware/MethodOverride.php:92
+[18-Apr-2016 14:23:12 UTC] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/Slim/Middleware/Flash.php:85
+[18-Apr-2016 14:23:12 UTC] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/Slim/Slim.php:1357
+[18-Apr-2016 14:23:12 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/Slim/Route.php:468}() /home/ubuntu/workspace/api/Slim/Route.php:468
+[18-Apr-2016 14:23:12 UTC] PHP   9. {closure:/home/ubuntu/workspace/api/index.php:251-272}() /home/ubuntu/workspace/api/Slim/Route.php:468
+[02-May-2016 19:42:28 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/api/index.php on line 19
+[02-May-2016 19:42:28 UTC] PHP Stack trace:
+[02-May-2016 19:42:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/index.php:0
+[02-May-2016 19:42:28 UTC] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/index.php:359
+[02-May-2016 19:42:28 UTC] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/Slim/Slim.php:1302
+[02-May-2016 19:42:28 UTC] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/Slim/Middleware/PrettyExceptions.php:67
+[02-May-2016 19:42:28 UTC] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/Slim/Middleware/MethodOverride.php:92
+[02-May-2016 19:42:28 UTC] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/Slim/Middleware/Flash.php:85
+[02-May-2016 19:42:28 UTC] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/Slim/Slim.php:1357
+[02-May-2016 19:42:28 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/Slim/Route.php:468}() /home/ubuntu/workspace/api/Slim/Route.php:468
+[02-May-2016 19:42:28 UTC] PHP   9. {closure:/home/ubuntu/workspace/api/index.php:15-23}() /home/ubuntu/workspace/api/Slim/Route.php:468
+[02-May-2016 19:47:03 UTC] PHP Fatal error:  Class 'Firebase' not found in /home/ubuntu/workspace/api/index.php on line 19
+[02-May-2016 19:47:03 UTC] PHP Stack trace:
+[02-May-2016 19:47:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/index.php:0
+[02-May-2016 19:47:03 UTC] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/index.php:360
+[02-May-2016 19:47:03 UTC] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/Slim/Slim.php:1302
+[02-May-2016 19:47:03 UTC] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/Slim/Middleware/PrettyExceptions.php:67
+[02-May-2016 19:47:03 UTC] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/Slim/Middleware/MethodOverride.php:92
+[02-May-2016 19:47:03 UTC] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/Slim/Middleware/Flash.php:85
+[02-May-2016 19:47:03 UTC] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/Slim/Slim.php:1357
+[02-May-2016 19:47:03 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/Slim/Route.php:468}() /home/ubuntu/workspace/api/Slim/Route.php:468
+[02-May-2016 19:47:03 UTC] PHP   9. {closure:/home/ubuntu/workspace/api/index.php:15-24}() /home/ubuntu/workspace/api/Slim/Route.php:468
+[02-May-2016 19:47:38 UTC] PHP Fatal error:  Class 'Firebase' not found in /home/ubuntu/workspace/api/index.php on line 19
+[02-May-2016 19:47:38 UTC] PHP Stack trace:
+[02-May-2016 19:47:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/index.php:0
+[02-May-2016 19:47:38 UTC] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/index.php:360
+[02-May-2016 19:47:38 UTC] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/Slim/Slim.php:1302
+[02-May-2016 19:47:38 UTC] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/Slim/Middleware/PrettyExceptions.php:67
+[02-May-2016 19:47:38 UTC] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/Slim/Middleware/MethodOverride.php:92
+[02-May-2016 19:47:38 UTC] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/Slim/Middleware/Flash.php:85
+[02-May-2016 19:47:38 UTC] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/Slim/Slim.php:1357
+[02-May-2016 19:47:38 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/Slim/Route.php:468}() /home/ubuntu/workspace/api/Slim/Route.php:468
+[02-May-2016 19:47:38 UTC] PHP   9. {closure:/home/ubuntu/workspace/api/index.php:15-24}() /home/ubuntu/workspace/api/Slim/Route.php:468
+[02-May-2016 19:48:00 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/ubuntu/workspace/api/index.php on line 20
+[02-May-2016 19:48:00 UTC] PHP Stack trace:
+[02-May-2016 19:48:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/index.php:0
+[02-May-2016 19:48:00 UTC] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/index.php:360
+[02-May-2016 19:48:00 UTC] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/Slim/Slim.php:1302
+[02-May-2016 19:48:00 UTC] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/Slim/Middleware/PrettyExceptions.php:67
+[02-May-2016 19:48:00 UTC] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/Slim/Middleware/MethodOverride.php:92
+[02-May-2016 19:48:00 UTC] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/Slim/Middleware/Flash.php:85
+[02-May-2016 19:48:00 UTC] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/Slim/Slim.php:1357
+[02-May-2016 19:48:00 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/Slim/Route.php:468}() /home/ubuntu/workspace/api/Slim/Route.php:468
+[02-May-2016 19:48:00 UTC] PHP   9. {closure:/home/ubuntu/workspace/api/index.php:15-24}() /home/ubuntu/workspace/api/Slim/Route.php:468
+[03-Jun-2016 01:30:37 UTC] PHP Fatal error:  Call to a member function con() on a non-object in /home/ubuntu/workspace/api/index.php on line 268
+[03-Jun-2016 01:30:37 UTC] PHP Stack trace:
+[03-Jun-2016 01:30:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/index.php:0
+[03-Jun-2016 01:30:37 UTC] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/index.php:360
+[03-Jun-2016 01:30:37 UTC] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/Slim/Slim.php:1302
+[03-Jun-2016 01:30:37 UTC] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/Slim/Middleware/PrettyExceptions.php:67
+[03-Jun-2016 01:30:37 UTC] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/Slim/Middleware/MethodOverride.php:92
+[03-Jun-2016 01:30:37 UTC] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/Slim/Middleware/Flash.php:85
+[03-Jun-2016 01:30:37 UTC] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/Slim/Slim.php:1357
+[03-Jun-2016 01:30:37 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/Slim/Route.php:468}() /home/ubuntu/workspace/api/Slim/Route.php:468
+[03-Jun-2016 01:30:37 UTC] PHP   9. {closure:/home/ubuntu/workspace/api/index.php:262-283}() /home/ubuntu/workspace/api/Slim/Route.php:468
+[03-Jun-2016 01:30:50 UTC] PHP Fatal error:  Call to a member function con() on a non-object in /home/ubuntu/workspace/api/index.php on line 268
+[03-Jun-2016 01:30:50 UTC] PHP Stack trace:
+[03-Jun-2016 01:30:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/index.php:0
+[03-Jun-2016 01:30:50 UTC] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/index.php:360
+[03-Jun-2016 01:30:50 UTC] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/Slim/Slim.php:1302
+[03-Jun-2016 01:30:50 UTC] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/Slim/Middleware/PrettyExceptions.php:67
+[03-Jun-2016 01:30:50 UTC] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/Slim/Middleware/MethodOverride.php:92
+[03-Jun-2016 01:30:50 UTC] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/Slim/Middleware/Flash.php:85
+[03-Jun-2016 01:30:50 UTC] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/Slim/Slim.php:1357
+[03-Jun-2016 01:30:50 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/Slim/Route.php:468}() /home/ubuntu/workspace/api/Slim/Route.php:468
+[03-Jun-2016 01:30:50 UTC] PHP   9. {closure:/home/ubuntu/workspace/api/index.php:262-283}() /home/ubuntu/workspace/api/Slim/Route.php:468
+[03-Jun-2016 01:31:22 UTC] PHP Fatal error:  Call to a member function con() on a non-object in /home/ubuntu/workspace/api/index.php on line 268
+[03-Jun-2016 01:31:22 UTC] PHP Stack trace:
+[03-Jun-2016 01:31:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/index.php:0
+[03-Jun-2016 01:31:22 UTC] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/index.php:360
+[03-Jun-2016 01:31:22 UTC] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/Slim/Slim.php:1302
+[03-Jun-2016 01:31:22 UTC] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/Slim/Middleware/PrettyExceptions.php:67
+[03-Jun-2016 01:31:22 UTC] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/Slim/Middleware/MethodOverride.php:92
+[03-Jun-2016 01:31:22 UTC] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/Slim/Middleware/Flash.php:85
+[03-Jun-2016 01:31:22 UTC] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/Slim/Slim.php:1357
+[03-Jun-2016 01:31:22 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/Slim/Route.php:468}() /home/ubuntu/workspace/api/Slim/Route.php:468
+[03-Jun-2016 01:31:22 UTC] PHP   9. {closure:/home/ubuntu/workspace/api/index.php:262-283}() /home/ubuntu/workspace/api/Slim/Route.php:468

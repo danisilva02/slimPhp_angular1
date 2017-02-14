@@ -1,0 +1,151 @@
+   <div class="section">
+   <div class="container">
+
+    <div class="titulo-home">
+      <h1>{{tituloCadastrar}}</h1>
+    </div>
+
+    <div class="row">
+        <div class="col s12 m6">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">Tenho cadastro</span>
+              
+            </div>
+              <i class="large material-icons">perm_identity</i>
+            <div class="card-action">
+                
+              <span class="cardCadastro" ng-click="AtivaForm(1)">Entrar</span>
+              
+            </div>
+          </div>
+        </div>
+    
+        <div class="col s12 m6">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">Nao tenho cadastro</span>
+              
+            </div>
+              <i class="large material-icons">perm_identity</i>
+            <div class="card-action">
+                
+              <span class="cardCadastro" ng-click="AtivaForm(2)">Criar cadastro</span>
+              
+            </div>
+          </div>
+        </div>
+      </div>   
+
+    <div class="row" ng-show="formularioCadastrar">
+    
+        <h3>Criar cadastro</h3>
+        
+    <form class="col s12" name="contatoForm">
+      <div class="row">
+        <div class="input-field col s6">
+          <input  id="first_name" type="text" class="validate" ng-model="contato.nome" name="nome" ng-required="true" ng-Minlength="6">
+          <label for="first_name">Nome</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name"  type="text" class="validate" ng-model="contato.sobrenome" name="sobrenome" ng-required="true" ng-Minlength="6">
+          <label for="last_name">Sobre nome</label>
+        </div>
+      </div>
+      <div ng-show="contatoForm.nome.$error.required && contatoForm.nome.$dirty"><h3 class="alert">Por favor preencha o campo nome</h3></div>
+      <div ng-show="contatoForm.nome.$error.minlength"><h3 class="alert">o campo nome deve contem no minimo 8 caracteres</h3></div>
+      <div ng-show="contatoForm.sobrenome.$error.required && contatoForm.sobrenome.$dirty"><h3 class="alert">Por favor preencha o campo nome</h3></div>
+      <div ng-show="contatoForm.sobrenome.$error.minlength"><h3 class="alert">o campo nome deve contem no minimo 8 caracteres</h1></div>
+      <div class="row">
+      <div class="input-field col s12">
+    <select ng-model="contato.niveis" ng-options="nivel.permissao for nivel in niveis">
+        <option value="">Selecione o tipo de acesso</option>
+    </select>
+    
+  </div>
+</div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate" ng-model="contato.senha" >
+          <label for="password">Senha</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate" ng-model="contato.email" >
+          <label for="email">Email</label>
+        </div>
+      </div>
+
+      
+
+  <button class="btn waves-effect waves-light purple" type="submit" name="action" ng-click="cadastrar(contato)" ng-disabled="contatoForm.$invalid">Cadastrar
+    <i class="material-icons right">send</i>
+  </button>
+
+  
+    </form>
+  </div>
+
+  
+ <div class="row" ng-show="formularioCadastro">
+     
+      <h3>Entrar</h3>
+     
+    <form class="col s12" ng-submit="fazerlogin()">
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" ng-model="login.usuario" type="text" class="validate">
+          <label for="icon_prefix">Nome</label>
+        </div>
+        <div class="input-field col s12">
+          <i class="material-icons prefix">phone</i>
+          <input id="icon_telephone" ng-model="login.senha" type="password" class="validate">
+          <label for="icon_telephone">Senha</label>
+        </div>
+      </div>
+    
+        <button class="btn waves-effect waves-light purple" type="submit" name="action" ng-click="cadastrar(contato)">Entar
+        <i class="material-icons right">send</i>
+        </button>
+        
+    </form>
+  </div>       
+       
+  <table class="striped" ng-show="false">
+        <thead>
+          <tr>
+              <th data-field="id">Selecionar</th>
+              <th data-field="id">Nome</th>
+              <th data-field="name">Sobrenome</th>
+              <th data-field="price">nivel</th>
+              <th data-field="price">senha</th>
+              <th data-field="price">email</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr ng-repeat="contato in contatos">
+            <th><input type="checkbox"/></th>
+            <td>{{contato.nome}}</td>
+            <td>{{contato.sobrenome}}</td>
+            <td>{{contato.niveis.permissao}}</td>
+            <td>{{contato.senha}}</td>
+            <td>{{contato.email}}</td>
+          </tr>
+          
+          
+        </tbody>
+      </table>
+
+
+
+
+
+   </div>
+   </div>
+
+   
+    

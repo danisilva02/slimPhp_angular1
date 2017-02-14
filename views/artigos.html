@@ -1,0 +1,52 @@
+<div class="row">   
+     <div class="col s12 m2 menuFiltro" id="menuFiltro">
+          <div class="collection">
+            <a href="#!" class="collection-item">Ultimos posts</a>
+            <a href="#!" class="collection-item">Profesor alan</a>
+            <a href="#!" class="collection-item">Profesor 1</a>
+            <a href="#!" class="collection-item">Profesor 2</a>
+            <a href="#!" class="collection-item">Profesor 3</a>
+            <a href="#!" class="collection-item">Profesor 4</a>
+            <a href="#!" class="collection-item">Profesor 5</a>
+            <a href="#!" class="collection-item">Profesor 6</a>
+            <a href="#!" class="collection-item">Profesor 7</a>
+          </div>
+    </div>     
+</div>    
+
+   <div class="section">
+   <div class="container">
+
+    <div class="titulo-home">
+      <h1>Atigos</h1>
+    </div>
+
+
+    <div class="row">
+
+
+      <div class="col s12 m4" ng-repeat="post in todosposts">
+
+         <div class="card">
+            <div class="card-image">
+              <img src="images/sample-1.jpg">
+              <span class="card-title">{{post.titulo}}</span>
+            </div>
+            <div class="card-content">
+              <p>{{post.subtitulo}}</p>
+            </div>
+            <div class="card-action">
+              <a href="#/detalhes/{{post.id}}">Saiba mais</a>
+            </div>
+          </div>
+
+      </div>
+   </div>
+
+   
+
+
+   
+
+   </div>
+   </div>
